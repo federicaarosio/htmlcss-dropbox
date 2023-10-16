@@ -145,14 +145,15 @@ main div.radio {
   background-color: blue; */
 }
 
-/* main section.plans {
- 
-} */
+main section.plans {
+  font-size: .7rem;
+}
 
 main div.card-column,
 main div.card-horizontal {
-  background-color: lightsalmon;
+  background-color: white;
   min-height: 4rem;
+  margin-bottom: 20px;
 }
 
 main section div.card-column {
@@ -166,18 +167,54 @@ main section div.card-column {
 main div.client-type {
   text-align: center;
   font-size: .7rem;
+  line-height: 1.5rem;
 }
+
+h3 {
+  font-size: 1.2rem;
+}
+
+section div.card-container {
+  padding: 1rem;
+}
+
+div.card-column p {
+  padding-bottom: 1rem;
+}
+
+.small-bold {
+  font-weight: 700;
+  padding: .8rem 0;
+}
+
+div p.frequency {
+  color: darkgrey;
+}
+
+div.card-column i {
+  padding-right: .5rem;
+}
+
+div.card-column li {
+  padding-bottom: 1rem;
+}
+
+
 
 .image {
   width: 70%;
   height: 7rem;
-  background-color: darkgoldenrod;
+  background-color: goldenrod;
 }
 
 .operation-card {
-  height: 7rem;
+  min-height: 7rem;
   background-color: lightskyblue;
   width: calc(100% / 3);
+}
+
+section img.img-operation {
+  width: 100%;
 }
 
 main section div.big-square {
