@@ -19,6 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .flex-j-center {
@@ -52,8 +53,6 @@ body {
 /* Header */
 header {
   height: 4rem;
-  /* background-color: orchid; */
-
   font-size: .8rem;
 }
 
@@ -62,9 +61,6 @@ header {
 }
 
 .header-cont-small {
-  /* min-width: 100px;
-  height: 100%;
-  background-color: seagreen; */
   padding: 0 1rem;
 }
 
@@ -138,7 +134,7 @@ section img.jumbo-img {
 section.jumbo i {
   font-size: 2rem;
   font-weight: 800;
-  padding-top: 6rem;
+  padding: 5rem 0 1rem 0;
 }
 
 
@@ -152,6 +148,10 @@ main {
   width: 55%;
   margin: 0 auto;
   background-color: bisque;
+}
+
+main section {
+  padding: 2rem 0;
 }
 
 h2 {
@@ -177,7 +177,7 @@ main div.card-horizontal {
 }
 
 main section div.card-column {
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 20px);
 }
 
 .border-lightgray {
@@ -242,15 +242,18 @@ div.card-horizontal button {
 }
 
 .image {
-  width: 450px;
-  /* height: 7rem; */
-  
+  width: 450px;  
+}
+
+div.operation-card p {
+ font-size: 0.8rem;
+ padding: 1.5rem 0;
 }
 
 .operation-card {
   min-height: 7rem;
   background-color: lightskyblue;
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 20px);
 }
 
 section img.img-operation {
