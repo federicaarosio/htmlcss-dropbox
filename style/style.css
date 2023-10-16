@@ -118,15 +118,6 @@ section img.jumbo-img {
   width: 70%;
 }
 
-.smaller-container {
-  width: 55%;
-  margin: 0 auto;
-  background-color: orange;
-}
-
-/* p {
-  padding-bottom: 2rem;
-} */
 
 section.jumbo i {
   font-size: 2rem;
@@ -136,12 +127,21 @@ section.jumbo i {
 
 
 /* Main */
-/* h2 {
-} */
+.smaller-container {
+  width: 55%;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
 
 main div.radio {
-  height: 3rem;
-  background-color: blue;
+  padding: 1rem 0;
+  /* height: 3rem;
+  background-color: blue; */
 }
 
 main div.card-column,
