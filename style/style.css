@@ -4,3 +4,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.border-test {
+  border: 1px solid red;
+}
+
+/* body {
+} */
+
+header {
+  height: 4rem;
+  background-color: orchid;
+}
+
+section.jumbo {
+  height: 36rem;
+  background-color: #b4d0e7;
+}
+
+.larger-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: blueviolet;
+  height: 26rem;
+}
