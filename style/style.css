@@ -32,6 +32,10 @@ body {
   flex-wrap: wrap;
 }
 
+.flex {
+  display: flex;
+}
+
 
 /* Header */
 header {
@@ -178,7 +182,7 @@ section div.card-container {
   padding: 1rem;
 }
 
-div.card-column p {
+div.card-column span {
   padding-bottom: 1rem;
 }
 
@@ -194,11 +198,6 @@ div p.frequency {
 div.card-column i {
   padding-right: .5rem;
 }
-
-div.card-column li {
-  padding-bottom: 1rem;
-}
-
 
 
 .image {
