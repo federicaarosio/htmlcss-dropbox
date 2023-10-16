@@ -27,6 +27,12 @@ body {
   align-items: center;
 }
 
+.flex-center-start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .flex-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -138,10 +144,14 @@ section.jumbo i {
 
 
 /* Main */
+main {
+  font-size: .8rem;
+}
+
 .smaller-container {
   width: 55%;
   margin: 0 auto;
-  background-color: orange;
+  background-color: bisque;
 }
 
 h2 {
@@ -221,12 +231,20 @@ div.card-horizontal button {
 }
 
 
+.left-column {
+  width: 55%;
+  /* background-color: goldenrod; */
+}
 
+.right-column {
+  width: 45%;
+  max-width: 250px;
+}
 
 .image {
-  width: 70%;
-  height: 7rem;
-  background-color: goldenrod;
+  width: 450px;
+  /* height: 7rem; */
+  
 }
 
 .operation-card {
