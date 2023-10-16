@@ -18,6 +18,16 @@
   justify-content: space-between;
 }
 
+.flex-j-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 header {
   height: 4rem;
   background-color: orchid;
@@ -47,7 +57,7 @@ h1 {
 }
 
 .smaller-container {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
   background-color: orange;
 }
@@ -73,3 +83,14 @@ main section div.card-column {
   width: calc(100% / 3);
 }
 
+.image {
+  width: 70%;
+  height: 7rem;
+  background-color: darkgoldenrod;
+}
+
+.operation-card {
+  height: 7rem;
+  background-color: lightskyblue;
+  width: calc(100% / 3);
+}
