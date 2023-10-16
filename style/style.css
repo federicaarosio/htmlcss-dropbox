@@ -9,8 +9,9 @@
   border: 1px solid red;
 }
 
-/* body {
-} */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* Flex */
 .flex-space-btw {
