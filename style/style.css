@@ -17,6 +17,7 @@ body {
 .flex-space-btw {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .flex-j-center {
@@ -32,6 +33,19 @@ body {
 header {
   height: 4rem;
   background-color: orchid;
+}
+
+.header-container {
+  height: 100%;
+}
+.header-cont-small {
+  min-width: 100px;
+  height: 100%;
+  background-color: seagreen;
+}
+
+ul {
+  list-style: none;
 }
 
 section.jumbo {
