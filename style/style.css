@@ -74,19 +74,23 @@ button {
   padding: .4rem .8rem;
 }
 
+.btn-margin {
+  margin: 1.5rem 0;
+}
+
 /* Jumbo */
 section.jumbo {
-  height: 46rem;
+  /* height: 46rem; */
   background-color: #b4d0e7;
-  padding: 5rem 0;
+  padding: 5rem 0 0 0;
+  margin-bottom: 5rem;
 }
 
 .larger-container {
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
-  background-color: blueviolet;
-  height: 26rem;
-  /* Altezza da togliere */
+  /* background-color: blueviolet; */
+  /* height: 36rem; */
 }
 
 section div.jumbo-container {
@@ -94,7 +98,7 @@ section div.jumbo-container {
 }
 
 h1 {
-  background-color: yellow;
+  /* background-color: yellow; */
   font-size: 4rem;
   font-weight: 800;
   padding-bottom: 2rem;
@@ -102,10 +106,9 @@ h1 {
 
 .column {
   width: 30%;
-  background-color: chartreuse;
-  min-height: 10rem;
+  /* background-color: chartreuse; */
+  min-height: 2rem;
   font-size: .8rem;
-  padding-left: 2rem;
 }
 
 section img.jumbo-img {
@@ -119,6 +122,16 @@ section img.jumbo-img {
   width: 55%;
   margin: 0 auto;
   background-color: orange;
+}
+
+/* p {
+  padding-bottom: 2rem;
+} */
+
+section.jumbo i {
+  font-size: 2rem;
+  font-weight: 800;
+  padding-top: 6rem;
 }
 
 
