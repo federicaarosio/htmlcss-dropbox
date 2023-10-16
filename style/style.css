@@ -12,6 +12,12 @@
 /* body {
 } */
 
+/* Flex */
+.flex-space-btw {
+  display: flex;
+  justify-content: space-between;
+}
+
 header {
   height: 4rem;
   background-color: orchid;
@@ -23,8 +29,47 @@ section.jumbo {
 }
 
 .larger-container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   background-color: blueviolet;
   height: 26rem;
+  /* Altezza da togliere */
 }
+
+h1 {
+  background-color: yellow;
+}
+
+.column {
+  width: 30%;
+  background-color: chartreuse;
+  height: 10rem;
+}
+
+.smaller-container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+
+/* Main */
+/* h2 {
+} */
+
+main div.radio {
+  height: 3rem;
+  background-color: blue;
+}
+
+main div.card-column,
+main div.card-horizontal {
+  background-color: lightsalmon;
+  min-height: 4rem;
+}
+
+main section div.card-column {
+  height: 7rem;
+  width: calc(100% / 3);
+}
+
