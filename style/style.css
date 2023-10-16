@@ -36,6 +36,12 @@ body {
   display: flex;
 }
 
+.flex-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 
 /* Header */
 header {
@@ -178,8 +184,14 @@ h3 {
   font-size: 1.2rem;
 }
 
-section div.card-container {
+section div.card-container,
+section div.team-enterprise-cont {
   padding: 1rem;
+}
+
+.card-container hr {
+  width: 20%;
+  margin: 1rem 0;
 }
 
 div.card-column span {
@@ -198,6 +210,17 @@ div p.frequency {
 div.card-column i {
   padding-right: .5rem;
 }
+
+/* carta orizzontale */
+.text-wrapper {
+  width: 55%;
+}
+
+div.card-horizontal button {
+  margin: 0;
+}
+
+
 
 
 .image {
