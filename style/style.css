@@ -59,6 +59,9 @@ body {
   align-items: flex-start;
 }
 
+section {
+  padding-top: 4rem;
+}
 
 /* Header */
 header {
@@ -126,7 +129,7 @@ section div.jumbo-container {
 
 h1 {
   /* background-color: yellow; */
-  font-size: 4rem;
+  font-size: 3.75rem;
   font-weight: 800;
   /* padding-bottom: 2rem; */
 }
@@ -284,7 +287,6 @@ div.card-horizontal button {
 
 main p {
   font-size: 0.8rem;
- padding: 1rem 0;
 }
 
 
