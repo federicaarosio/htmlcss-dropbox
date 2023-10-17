@@ -17,7 +17,6 @@ body {
 .flex-space-btw {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   gap: 25px;
   flex-wrap: wrap;
 }
@@ -90,6 +89,7 @@ button {
   background-color: #0061ff;
   color: white;
   border: none;
+  font-size: .8rem;
   padding: .4rem .8rem;
 }
 
@@ -151,7 +151,7 @@ main {
 }
 
 .smaller-container {
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
   background-color: bisque;
 }
@@ -178,7 +178,6 @@ main section.plans {
 main div.card-column,
 main div.card-horizontal {
   background-color: white;
-  min-height: 4rem;
   margin-bottom: 20px;
 }
 
@@ -202,7 +201,7 @@ h3 {
 
 section div.card-container,
 section div.team-enterprise-cont {
-  padding: 1.5rem;
+  padding: 1.7rem;
 }
 
 .card-container hr {
@@ -252,14 +251,20 @@ div.card-horizontal button {
   width: 450px;  
 }
 
-div.operation-card p {
- font-size: 0.8rem;
- padding: 1.5rem 0;
+.find-partner-btn {
+  background-color: white;
+  color: #7e7e7e;
+  border: #7e7e7e 1px solid;
 }
+
+main p {
+  font-size: 0.8rem;
+ padding: 1rem 0;
+}
+
 
 .operation-card {
   min-height: 7rem;
-  /* background-color: lightskyblue; */
   width: calc((100% / 3) - 25px);
 }
 
@@ -279,7 +284,6 @@ main section div.big-square {
 
 div.small-square {
   width: calc(100% / 2);
-  /* background-color: lightgrey; */
   background-size: 100px;
   background-position: center;
   background-repeat: no-repeat;
