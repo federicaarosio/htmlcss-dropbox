@@ -379,9 +379,22 @@ div.question i {
 
 /* Footer */
 
+footer {
+  background-color: black;
+  color: white;
+}
 
 div.fifths-column {
   width: calc(100% / 5);
+}
+
+div.fifths-column h3 {
+  padding-bottom: 1rem;
+}
+
+div.fifths-column li {
+  font-size: .8rem;
+  padding-bottom: .8rem;
 }
 
 div.language {
