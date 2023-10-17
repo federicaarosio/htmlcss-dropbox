@@ -43,6 +43,11 @@ body {
   align-items: center;
 }
 
+.flex-space-btw-fs {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 /* .flex-center-start {
   display: flex;
   justify-content: center;
