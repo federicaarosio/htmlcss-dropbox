@@ -33,6 +33,11 @@ body {
   align-items: center;
 }
 
+.flex-ai-center {
+  display: flex;
+  align-items: center;
+}
+
 .flex-center-start {
   display: flex;
   justify-content: center;
@@ -382,6 +387,7 @@ div.question i {
 footer {
   background-color: black;
   color: white;
+  font-size: .8rem;
 }
 
 div.fifths-column {
@@ -393,11 +399,10 @@ div.fifths-column h3 {
 }
 
 div.fifths-column li {
-  font-size: .8rem;
+  
   padding-bottom: .8rem;
 }
 
 div.language {
-  height: 20px;
-  background-color: aquamarine;
+  color: #91999a;
 }
