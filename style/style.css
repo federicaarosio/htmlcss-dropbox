@@ -43,11 +43,11 @@ body {
   align-items: center;
 }
 
-.flex-center-start {
+/* .flex-center-start {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-}
+} */
 
 .flex-wrap {
   display: flex;
@@ -65,7 +65,7 @@ body {
 }
 
 section {
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 
 /* Header */
@@ -186,6 +186,7 @@ h2 {
 
 h2.color-burgundy {
   color: #61092e;
+  padding-bottom: 6rem;
 }
 
 main div.radio {
@@ -263,7 +264,7 @@ i {
 }
 
 
-/* carta orizzontale */
+/* card orizzontale */
 .text-wrapper {
   width: 55%;
 }
@@ -275,13 +276,12 @@ div.card-horizontal button {
 
 .left-column {
   width: 55%;
-  /* background-color: goldenrod; */
 }
 
 .right-column {
   width: 45%;
-  max-width: 250px;
-  padding-left: 1rem;
+  max-width: 300px;
+  padding-left: 2rem;
 }
 
 .image {
@@ -380,8 +380,6 @@ div.padding-square {
 }
 
 section button.light {
-  /* width: 100px;
-  height: 50px; */
   background-color: white;
   color: #3a4955;
   padding: .6rem 2rem;
@@ -391,6 +389,10 @@ section button.light {
   height: 5rem;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+}
+
+.question:last-child {
+  margin-bottom: 8rem;
 }
 
 div.question p,
@@ -414,6 +416,7 @@ footer {
 
 div.fifths-column {
   width: calc(100% / 5);
+  padding-bottom: 2.5rem;
 }
 
 div.fifths-column h3 {
@@ -421,7 +424,6 @@ div.fifths-column h3 {
 }
 
 div.fifths-column li {
-  
   padding-bottom: .8rem;
 }
 
@@ -430,9 +432,13 @@ footer hr {
   height: 1px;
   background-color: lightgrey;
   border: none;
-  margin: 1.5rem 0;
+  margin: 3rem 0;
 }
 
 div.language {
   color: #91999a;
+}
+
+span.lingua {
+  padding-right: .5rem;
 }
