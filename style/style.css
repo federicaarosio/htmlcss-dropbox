@@ -101,8 +101,9 @@ button {
   padding: .4rem .8rem;
 }
 
-.btn-margin {
+.btn-light-blue {
   margin: 1.5rem 0;
+  padding: .7rem;
 }
 
 /* Jumbo */
