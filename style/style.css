@@ -5,9 +5,9 @@
   box-sizing: border-box;
 }
 
-/* .border-test {
+.border-test {
   border: 1px solid red;
-} */
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -105,7 +105,7 @@ button {
 /* Jumbo */
 section.jumbo {
   background-color: #b4d0e7;
-  padding: 5rem 0 0 0;
+  /* padding: 5rem 0 0 0; */
   margin-bottom: 5rem;
 }
 
@@ -117,34 +117,41 @@ section.jumbo {
 }
 
 section div.jumbo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   position: relative;
+  top: 50px;
 }
 
 h1 {
   /* background-color: yellow; */
   font-size: 4rem;
   font-weight: 800;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .column-30 {
   width: 30%;
   /* background-color: chartreuse; */
-  min-height: 2rem;
+  /* min-height: 2rem; */
   font-size: .8rem;
 }
 
+.column-70 {
+  width: 70%;
+}
+
 section img.jumbo-img {
-  position: absolute;
   top: 0;
   right: 0;
-  width: 70%;
+  width: 100%;
 }
 
 section.jumbo i {
   font-size: 2rem;
   font-weight: 800;
-  padding: 5rem 0 1rem 0;
+  padding: 2rem 0 1rem 0;
 }
 
 
