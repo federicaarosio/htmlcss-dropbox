@@ -21,6 +21,11 @@ body {
   flex-wrap: wrap;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-space-btw-c {
   display: flex;
   justify-content: space-between;
@@ -125,7 +130,7 @@ section div.jumbo-container {
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  top: 50px;
+  top: 60px;
 }
 
 h1 {
@@ -137,8 +142,6 @@ h1 {
 
 .column-30 {
   width: 30%;
-  /* background-color: chartreuse; */
-  /* min-height: 2rem; */
   font-size: .8rem;
 }
 
@@ -155,7 +158,7 @@ section img.jumbo-img {
 section.jumbo i {
   font-size: 2rem;
   font-weight: 800;
-  padding: 2rem 0 1rem 0;
+  padding-top: 5rem;
 }
 
 
@@ -170,17 +173,13 @@ main {
   margin: 0 auto;
 }
 
-/* main section {
-  padding: 2rem 0;
-} */
-
 .full-width {
   background-color: #b4d0e7
 }
 
 h2 {
   font-size: 2rem;
-  padding: 1rem 0;
+  padding-bottom: 2rem;
 }
 
 h2.color-burgundy {
@@ -189,8 +188,6 @@ h2.color-burgundy {
 
 main div.radio {
   padding: 1rem 0;
-  /* height: 3rem;
-  background-color: blue; */
 }
 
 main section.plans {
@@ -288,6 +285,7 @@ div.card-horizontal button {
 
 main p {
   font-size: 0.8rem;
+  /* padding-bottom: 1.5rem; */
 }
 
 
