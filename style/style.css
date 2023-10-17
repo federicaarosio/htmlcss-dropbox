@@ -345,6 +345,8 @@ img.centered-logo {
 
 .logo-1 {
   background-color: #a2d39b;
+  outline: 10px solid #d1e9cd;
+  outline-offset: -10px;
 }
 
 .logo-2 {
