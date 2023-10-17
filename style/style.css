@@ -117,7 +117,7 @@ h1 {
   padding-bottom: 2rem;
 }
 
-.column {
+.column-30 {
   width: 30%;
   /* background-color: chartreuse; */
   min-height: 2rem;
@@ -210,11 +210,12 @@ div.card-column span {
 
 .small-bold {
   font-weight: 700;
-  padding: .8rem 0;
+  padding: .7rem 0;
 }
 
 div p.frequency {
   color: darkgrey;
+  padding-bottom: 2.2rem;
 }
 
 div.card-column i {
@@ -288,6 +289,7 @@ img.centered-logo {
   /* Credits: https://codepen.io/sosuke/pen/Pjoqqp */
   filter: invert(100%) sepia(88%) saturate(2%) hue-rotate(296deg) brightness(110%) contrast(101%);
 }
+
 .logo-1 {
   background-color: #a2d39b;
 }
@@ -318,6 +320,15 @@ img.centered-logo {
 
 .logo-8 {
   background-color: #ffd830;
+}
+
+div.padding-square {
+  padding: 2rem;
+}
+
+.bigger-logo {
+  width: 220px;
+
 }
 
 section button.light {
