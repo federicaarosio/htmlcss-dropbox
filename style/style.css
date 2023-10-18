@@ -117,6 +117,10 @@ button {
   padding: .4rem .8rem;
 }
 
+button:hover {
+ filter: invert(1)
+}
+
 .btn-light-blue {
   margin: 1.5rem 0;
   padding: .7rem;
