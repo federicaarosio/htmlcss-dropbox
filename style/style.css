@@ -435,11 +435,12 @@ section button.light {
 }
 
 .question {
-  height: 5rem;
+  padding: 2.5rem 0;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
-  position: relative;
 }
+
+.question:hover
 
 .question:last-child {
   margin-bottom: 8rem;
