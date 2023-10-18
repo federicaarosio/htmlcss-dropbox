@@ -454,7 +454,7 @@ div.question i {
 }
 
 div.question i {
-  padding-right: 1rem;
+  padding: 0;
 }
 
 .answer {
@@ -465,7 +465,7 @@ div.question:hover .answer {
   display: inline-block;
   color: gray;
   font-weight: 500;
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
 
 /* Footer */
