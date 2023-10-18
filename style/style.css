@@ -124,7 +124,6 @@ header li:hover .dropdown-menu {
   top: 3.2rem;
   left: -1.5rem;
   background-color: #fafafa;
-  border: 1px solid red;
   display: block;
   z-index: 1;
 }
@@ -439,6 +438,7 @@ section button.light {
   height: 5rem;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+  position: relative;
 }
 
 .question:last-child {
@@ -454,6 +454,16 @@ div.question i {
   padding-right: 1rem;
 }
 
+.answer {
+  display: none;
+}
+
+div.question:hover .answer {
+  display: inline-block;
+  color: gray;
+  font-weight: 500;
+  margin: 2rem 0;
+}
 
 /* Footer */
 
