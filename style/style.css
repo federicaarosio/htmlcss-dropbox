@@ -314,6 +314,11 @@ div.card-horizontal button {
   padding: .5rem .8rem;
 }
 
+.find-partner-btn:hover,
+.light:hover {
+  filter: invert(1);
+}
+
 main p {
   font-size: 0.8rem;
   padding-bottom: 1rem;
@@ -402,7 +407,7 @@ div.padding-square {
 
 section button.light {
   background-color: white;
-  color: #3a4955;
+  color: black;
   padding: .6rem 2rem;
 }
 
