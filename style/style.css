@@ -114,14 +114,16 @@ div.dropdown-menu {
   display: none;
 }
 
+div.dropdown-menu li {
+  border-bottom: none;
+}
+
 header li:hover .dropdown-menu {
   position: absolute;
-  top: 20px;
-  left: 0;
+  top: 3.2rem;
+  left: -1.5rem;
   background-color: white;
   border: 1px solid red;
-  height: 300px;
-  width: 400px;
   display: block;
 }
 
