@@ -26,10 +26,10 @@ body {
   flex-direction: column;
 }
 
-.flex-space-btw-c {
+.flex-space-btw-fs {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .flex-j-center {
@@ -440,7 +440,9 @@ section button.light {
   border-bottom: 1px solid lightgrey;
 }
 
-.question:hover
+.question:hover .fa-chevron-down {
+  transform: rotate(180deg);
+}
 
 .question:last-child {
   margin-bottom: 8rem;
