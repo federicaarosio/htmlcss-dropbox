@@ -117,13 +117,17 @@ button {
   padding: .4rem .8rem;
 }
 
-button:hover {
+/* button:hover {
  filter: invert(1)
-}
+} */
 
 .btn-light-blue {
   margin: 1.5rem 0;
   padding: .7rem;
+}
+
+.btn-hover:hover {
+  background-color: #0057e5;
 }
 
 /* Jumbo */
@@ -442,6 +446,10 @@ div.fifths-column h3 {
 
 div.fifths-column li {
   padding-bottom: .8rem;
+}
+
+div.fifths-column li:hover {
+  filter: invert(63%) sepia(8%) saturate(208%) hue-rotate(138deg) brightness(94%) contrast(88%);
 }
 
 footer hr {
