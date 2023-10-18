@@ -75,8 +75,8 @@ section {
 
 /* Header */
 header {
-  height: 4rem;
   font-size: .8rem;
+  padding: 1rem 0;
 }
 
 .header-container {
