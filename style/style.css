@@ -112,6 +112,7 @@ header li:hover {
 
 div.dropdown-menu {
   display: none;
+  width: 500px;
 }
 
 div.dropdown-menu li {
@@ -122,9 +123,14 @@ header li:hover .dropdown-menu {
   position: absolute;
   top: 3.2rem;
   left: -1.5rem;
-  background-color: white;
+  background-color: #fafafa;
   border: 1px solid red;
   display: block;
+  z-index: 1;
+}
+
+ul.menu-column {
+  width: 50%;
 }
 
 button {
