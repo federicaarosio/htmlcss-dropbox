@@ -128,6 +128,12 @@ header li:hover .dropdown-menu {
   z-index: 1;
 }
 
+header li:hover #right {
+  position: absolute;
+  top: 3.2rem;
+  left: -25rem;
+}
+
 ul.menu-column {
   width: 50%;
 }
